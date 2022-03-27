@@ -18,5 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootApplicationDemo {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootApplication.class, args);
+
+        System.out.println("使用IDEA进行提交代码");
     }
 }
